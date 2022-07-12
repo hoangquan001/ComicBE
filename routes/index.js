@@ -1,7 +1,7 @@
 const express = require('express');
 const DrivesRoute = express.Router();
 
-routes=(app)=>{
+routes = (app)=>{
     app.get('/api',(req, res)=>{
         res.send("Hello World");
     });
