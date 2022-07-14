@@ -7,4 +7,6 @@ connectDB();
 app.use(express.json())
 app.use(express.urlencoded({ extended: true, limit: '1mb'}));
 
+
+require('./routes/index')(app)
 module.exports = app
